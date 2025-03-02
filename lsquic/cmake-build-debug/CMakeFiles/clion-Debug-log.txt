@@ -1,0 +1,14 @@
+/home/cnic/下载/clion-2023.3.4/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/cnic/下载/clion-2023.3.4/bin/ninja/linux/x64/ninja -DBORINGSSL_DIR=../boringssl -DBORINGSSL_INC=../boringssl/include -DBORINGSSL_ssl=../boringssl/ssl -DBORINGSSL_crypto=../boringssl/crypto . -G Ninja -S /home/cnic/project/lzj/lsquic -B /home/cnic/project/lzj/lsquic/cmake-build-debug
+-- CMake v3.27.8
+-- Build type: Debug
+-- AddressSanitizer is OFF
+-- Compiler flags:   -DLSQUIC_DEBUG_NEXT_ADV_TICK=1 -DLSQUIC_CONN_STATS=1 -Wall -Wextra -Wno-unused-parameter -fno-omit-frame-pointer -Wno-missing-field-initializers -O0 -g3 
+-- BoringSSL include directory /home/cnic/project/lzj/boringssl/include
+-- Found ssl library: /home/cnic/project/lzj/boringssl/ssl/libssl.a
+-- Found crypto library: /home/cnic/project/lzj/boringssl/crypto/libcrypto.a
+-- Found zlib: /usr/lib/x86_64-linux-gnu/libz.a
+-- Found event: /usr/lib/x86_64-linux-gnu/libevent.a
+-- sphinx-build not found: docs won't be made
+-- Configuring done (0.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/cnic/project/lzj/lsquic/cmake-build-debug
