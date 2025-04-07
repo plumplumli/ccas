@@ -13,6 +13,8 @@ This is a implemented project to study the Dynamic Switching Technology for Cong
 
 This project is developed based on Lsquic (The commit ID of development is '0e536e04').
 
+Currently supported Congestion Control Algorithms: Cubic, BBR, Copa.
+
 Standard Compliance
 -------------------
 
